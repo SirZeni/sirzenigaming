@@ -1,172 +1,148 @@
-<!DOCTYPE html>
+<DOCTYPE! html>
 <html>
 <head>
-   <title>sirzenigaming</title>
-   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<title>sirzenigaming</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body  {
-     background-image:  url(https://steamuserimages-a.akamaihd.net/ugc/38620959927449373/E3A1E1B94F77BB6CAD6635FCFF9542A762CDF795/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-size: cover;
-}
-.glow {
-font-size: 150px;
-color: #9932CC;
-text-align:center;
-animation: glow 1s ease-in-out infinite alternate;
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Style the header */
+    header {
+      background-color:purple;
+      background-image: url(https://steamuserimages-a.akamaihd.net/ugc/38620959927449373/E3A1E1B94F77BB6CAD6635FCFF9542A762CDF795/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false), url(https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj), url(https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj);
+      background-size:fixed;
+      background-repeat:no-repeat,no-repeat,no-repeat;
+      padding:100px;
+      background-position:center,center left,center right;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      float: left;
+      width: 30%;
+      height: 500px; /* only for demonstration, should be removed */
+      background: #ccc;
+      padding: 20px;
+    }
+    
+    /* Style the list inside the menu */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+      background-color: #f1f1f1;
+      height: 500px; /* only for demonstration, should be removed */
+    }
+    
+    /* Clear floats after the columns */
+    section::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Style the footer */
+    footer {
+      background-color: #777;
+      background-size:fixed;
+      padding: 10px;
+      text-align: center;
+      color: white;
+    }
+
+.topnav {
+  overflow: hidden;
+  background-color: green;
 }
 
-@-webkit-keyframes glow {
-     from {
-             text-shadow: 0 0 10px #9932CC, 0 0 20px #9932CC, 0 0 30px#9932CC , 0 0 40px #9932CC, 0 0 50px #9932CC, 0 0 60px #9932CC, 0 0 70px #9932CC;
-     }
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 579px;
+  text-decoration: none;
+  text-size-adjust:50%;
+}
+
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
   
-     to {
-       text-shadow: 0 0 20px #9932CC, 0 0 30px #9932CC, 0 0 40px #9932CC, 0 0 50px #9932CC, 0 0 60px #9932CC, 0 0 70px #9932CC, 0 0 80px #9932CC;
-     }
-}
-</style>
-</head>
-<body>
-}
-</style>
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+
+      }
+
+    .glow {
+            font-size: 150px;
+            color: #9932CC;
+            text-align:center;
+            animation: glow 1s ease-in-out infinite alternate;
+            }
+            
+            @-webkit-keyframes glow {
+                 from {
+                         text-shadow: 0 0 10px #9932CC, 0 0 20px #9932CC, 0 0 30px#9932CC , 0 0 40px #9932CC, 0 0 50px #9932CC, 0 0 60px #9932CC, 0 0 70px #9932CC;
+                 }
+              
+                 to {
+                   text-shadow: 0 0 20px #9932CC, 0 0 30px #9932CC, 0 0 40px #9932CC, 0 0 50px #9932CC, 0 0 60px #9932CC, 0 0 70px #9932CC, 0 0 80px #9932CC;
+                 }
+            }
+    </style>
+    </head>
+    <body>
+        <header>
 <h1 style="color:white;"class="glow">SirZeni</h1>
-<br>
-<style>
-div.ex1 {
-  width: 800px;
-  margin: auto;
-  border: 3px solid #9400D3;
-}
-
-}
-</style>
-<div class="ex1" style ="color:white;font-size:60px;text-align:center;">Welcome to the site of SirZeni!</div>
-<br>
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt=sirzeni icon width"100" height="100">
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<style>
-div.ex2 {
-  float: left;
-  width: 300px;
-  margin: auto;
-  border: 3px solid #7CFC00;
-}
-
-}
-</style>
-<div class="ex2" style ="color:white;font-size:40px;text-align:center">Photo Gallery:</div>
-<br>
-<br>
-<br>
-<br>
-<img src="https://yt3.ggpht.com/ytc/AMLnZu8plG02eb1MMgw4PbbYtnL1C-9dmgQVcY94vz12=s900-c-k-c0x00ffffff-no-rj" alt="sirzeni icon" width="300" height="300">
-<img src="https://steamuserimages-a.akamaihd.net/ugc/1714169372831006356/9EBD0AFCB63A62065C4F292886B465DFC37C5478/?imw=2048&imh=1152&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="sirzenipubgwin" width="600" height="300">
-<img src="https://steamuserimages-a.akamaihd.net/ugc/1769324588867100144/D26C9650925A5F7EEC47BAE904D70F2B9889DF2C/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="sirzenipcbuildingsimulator" width="600" height="300">
-<img src="https://steamuserimages-a.akamaihd.net/ugc/1022822435109512769/E57A361737A3723C80A51892DABDA8B9CD4B8C3F/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="nevershould'vecomehere" width="600" height="300">
-<img src="https://steamuserimages-a.akamaihd.net/ugc/702910668798682774/38A23529823062DC3E74D2495AD45748CB1CEF5E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="#magictf2" width="600" height="300">
-<img src="https://steamuserimages-a.akamaihd.net/ugc/1022822435109736244/46E29106D572B367C6C601BE198092079876A677/?imw=640&imh=360&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="dontgetinvitosway" width"600" height="300">
-<img src="https://steamuserimages-a.akamaihd.net/ugc/702910997899941263/3568AC403078C9F8192E1F3A64C84DFF9841B36E/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt=tf2pootisbird" width="600" height="300">
-<br>
-<br>
-<br>
-<br>
-<br>
-<style>
-div.ex3 {
-  float: left;
-  width: 300px;
-  margin: auto;
-  border: 3px solid #FF0000;
-}
-
-}
-</style>
-<div class="ex3" style ="color:white;font-size:40px;text-align:left;text-align:center">YouTube Videos:</div>
-<br>
-<br>
-<br>
-<br>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/OFX8BizOrRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/kZFYIF3hgxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/IkrKVNpd2Hw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/wWCcfjgS88E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="420" height="345" src="https://www.youtube.com/embed/Sy9HqPLgxG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br>
-<br>
-<br>
-<style>
-div.ex4 {
-  float: left;
-  width: 300px;
-  margin: auto;
-  border: 3px solid #FAF0E6;
-}
-
-}
-</style>
-<div class="ex4" style ="color:white;font-size:40px;text-align:left;text-align:center">Media Links:</div>
-<br>
-<br>
-<br>
-<br>
-<style>
-table, th, td {
-  border:2px solid purple;
-}
-</style>
-
-
-<h3style="text-align:center"><table style="width:25%;"></h3>
-   <tr>
-       <th style="color:white;">Media</th>
-       <th style="color:white;">Media Link</th>
-   </tr>
-   <tr>
-       <td style="color:white;">YouTube</td>
-       <td><a href="https://www.youtube.com/channel/UCrk2ivr0Lom_W-59mKcyMbw" style ="color:white;">Youtube Link</a></td>
-    </tr>
-   <tr>
-       <td style="color:white;">Twitch</td>
-       <td><a href="https://www.twitch.tv/sirzeni_" style="color:white;">Twitch Link</a></td>
-     </tr>
-</table>
-<br>
-<br>
-<p style="color:white;font-size:15px;">last modified on:10/12/2022</p>
-<p style="color:white;font-size-10px;">v1.1<button onclick="document.location='sirzenigamingpn.html'">Patch Notes</button></p>
-</body>
+    </header>
+    <div class="topnav">
+        <a href="sirzenigamingPG.html">Photo Gallery</a>
+        <a href="sirzenigamingYT.html">Youtube Videos</a>
+    </div>
+    <section>
+        <nav>
+            <p1 style="background-color:white;color:black;font-size:50px;">Media Links:</p1>
+          <ul>
+            <a href="https://www.youtube.com/channel/UCrk2ivr0Lom_W-59mKcyMbw"><img src="https://t3.ftcdn.net/jpg/04/09/83/66/360_F_409836622_TRZxeID3QUi3gqecV0V1TQiCYEskG61a.jpg" alt="YouTube" style="width:100px;height:100px;"></a>
+            <a href="https://www.twitch.tv/sirzeni_"><img src="https://s3.amazonaws.com/tracxn-data-image/logo/company/fe416d5d52c1033f6c68334b6c6b837" alt="Twitch" style="width:100px;height:100px;"></a>
+            <a href="https://steamcommunity.com/id/JZAttack2"><img src="https://cdn.freebiesupply.com/images/large/2x/steam-logo-white.png" alt="Steam" style="width:100px;height:100px;"></a>
+          </ul>
+        </nav> 
+        <article>
+           <p2 style="background-color:lightgrey;color:black;font-size:50px;">Artwork:</p2>
+           <br>
+           <img src="https://steamuserimages-a.akamaihd.net/ugc/1022822435109736244/46E29106D572B367C6C601BE198092079876A677/?imw=640&imh=360&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt="dontgetinvitosway" width="600" height="300">
+           <img src="https://steamuserimages-a.akamaihd.net/ugc/702910997899941263/3568AC403078C9F8192E1F3A64C84DFF9841B36E/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" alt=tf2pootisbird" width="600" height="300">
+          </article>
+        </section>
+    <footer>
+      <p style="font-size:20px;color:white;text-align:left;">v2.0<button oneclick="document.location='sirzenigamingpn.html'">Patch Notes</button></p>
+      
+    </footer>
+</head>
 </html>
