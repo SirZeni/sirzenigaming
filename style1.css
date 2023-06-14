@@ -1,0 +1,135 @@
+/*"Home Page" section*/
+body.home{
+    background-image:  url(https://steamuserimages-a.akamaihd.net/ugc/38620959927449373/E3A1E1B94F77BB6CAD6635FCFF9542A762CDF795/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.glow {
+    font-size: 150px;
+    color: #9932CC;
+    text-align:center;
+    animation: glow 1s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+         from {
+                 text-shadow: 0 0 10px #9932CC, 0 0 20px #9932CC, 0 0 30px#9932CC , 0 0 40px #9932CC, 0 0 50px #9932CC, 0 0 60px #9932CC, 0 0 70px #9932CC;
+         }
+      
+         to {
+           text-shadow: 0 0 20px #9932CC, 0 0 30px #9932CC, 0 0 40px #9932CC, 0 0 50px #9932CC, 0 0 60px #9932CC, 0 0 70px #9932CC, 0 0 80px #9932CC;
+         }
+    }
+
+div.ex1 {
+    width: 800px;
+    margin: auto;
+    border: 3px solid #9400D3;
+    color:white;
+    font-size:40px;
+    text-align:center;
+  }
+
+div.ex2 {
+    float: left;
+    width: 300px;
+    margin: auto;
+    border: 3px solid #7CFC00;
+    color:white;
+    font-size:40px;
+    text-align:center;
+  }
+
+div.ex3 {
+    float: left;
+    width: 300px;
+    margin: auto;
+    border: 3px solid #FF0000;
+    color:white;
+    text-align:center;
+    font-size:40px;
+  }
+
+div.ex4 {
+    float: left;
+    width: 300px;
+    margin: auto;
+    border: 3px solid #FAF0E6;
+    color:white;
+    font-size: 40px;
+    text-align:center;
+  }
+ 
+  
+  
+/*"Picture Gallery" section */
+body.gallery {
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1774951538400993212/E445F969AEA82627FB9A6922B8D8E48F4DC5471C/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+div.picgallery{
+    border:10px solid grey;
+    float:center;
+    height:150px;
+    width:1000px;
+    margin:auto;
+    font-family:'Times New Roman', Times, serif;
+    font-size:100px;
+    background-color:green;
+    color:white;
+    text-align:center;
+}
+
+table.pictures, td, th{
+    border-collapse:collapse;
+    border:10px solid grey;
+    width:700px;
+    height:400px;
+    float:center;
+    margin:auto;
+    text-align:center;
+    background-color:green;
+}
+
+
+
+/*"Patch Notes' section*/
+body.pnotes {
+    background-color:grey;
+}
+
+h1.ex5 {
+    font-family:'Times New Roman', Times, serif;
+    font-size:100px;
+    text-align:center;
+} 
+
+p3, p5, p7, p9.ex6 {
+    font-family:'Times New Roman', Times, serif;
+    font-size:40px;
+    color:red;
+}
+
+p4, p6, p8, p10.ex7 {
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+}
+
+
+
+/*"Cinema" section*/
+body.cinema{
+    background-color:darkgrey;
+}
+
+h1.ex8{
+    font-family:'Times New Roman', Times, serif;
+    font-size:100px;
+    text-align:center;
+    color:white;
+}
