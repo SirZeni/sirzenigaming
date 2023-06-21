@@ -23,6 +23,13 @@ body.home{
          }
     }
 
+@media (max-width:1200px) {
+    #zenipic {
+        width: 34px;
+        height: 34px;
+    }
+}
+
 div.ex1 {
     width: 800px;
     margin: auto;
