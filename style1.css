@@ -30,14 +30,14 @@ body.home{
     }
 }
 
-@media (min-width:1201px) , (max-width:1368px) {
+@media (min-width:1225px) , (max-width:1368px) {
     #zenipic {
         width: 60px;
         height: 60px;
     }
 }
 
-@media (max-width:1200px) {
+@media (max-width:1224px) {
     #zenipic {
         width: 38px;
         height: 38px;
