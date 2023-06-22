@@ -23,10 +23,17 @@ body.home{
          }
     }
 
-@media (max-width:1920px) {
+@media (min-width:1369px) , (max-width:1920px) {
     #zenipic {
-        width: 74px;
-        height: 74px;
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media (min-width:1201px) , (max-width:1368px) {
+    #zenipic {
+        width: 70px;
+        height: 70px;
     }
 }
 
