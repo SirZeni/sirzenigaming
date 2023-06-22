@@ -25,15 +25,15 @@ body.home{
 
 @media (max-width:1920px) {
     #zenipic {
-        width: 75px;
-        height: 75px;
+        width: 74px;
+        height: 74px;
     }
 }
 
 @media (max-width:1200px) {
     #zenipic {
-        width: 39px;
-        height: 39px;
+        width: 38px;
+        height: 38px;
     }
 }
 
