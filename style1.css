@@ -117,19 +117,19 @@ body.pnotes {
     background-color:grey;
 }
 
-h1.ex5 {
+h1.pnotesheader {
     font-family:'Times New Roman', Times, serif;
     font-size:100px;
     text-align:center;
 } 
 
-p3, p5, p7, p9.ex6 {
+p.pnotesred {
     font-family:'Times New Roman', Times, serif;
     font-size:40px;
     color:red;
 }
 
-p4, p6, p8, p10.ex7 {
+p.pnotesblack {
     font-family:'Times New Roman', Times, serif;
     font-size:30px;
 }
