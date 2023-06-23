@@ -44,6 +44,29 @@ body.home{
     }
 }
 
+@media (min-width:1225px) , (max-width:1369px){
+    #homegallery {
+        width:450px;
+        height:225px;
+    }
+}
+
+@media (max-width:1224px) {
+    #homegallery {
+        width:400px;
+        height:200px;
+    }
+
+}
+
+@media (min-width:1225px) , (max-width:1369px){
+    #youtubeframes{
+        width:325px;
+        height:250px;
+    }
+}
+
+
 div.ex1 {
     width: 800px;
     margin: auto;
