@@ -21,62 +21,18 @@ body.home{
          to {
            text-shadow: 0 0 20px #9932CC, 0 0 30px #9932CC, 0 0 40px #9932CC, 0 0 50px #9932CC, 0 0 60px #9932CC, 0 0 70px #9932CC, 0 0 80px #9932CC;
          }
-    }
-
-@media (min-width:1369px) , (max-width:1920px) {
-    #zenipic {
-        width: 75px;
-        height: 75px;
-    }
 }
 
-@media (min-width:1225px) , (max-width:1368px) {
-    #zenipic {
-        width: 60px;
-        height: 60px;
-    }
-}
-
-@media (max-width:1224px) {
-    #zenipic {
-        width: 38px;
-        height: 38px;
-    }
-}
-
-@media (min-width:1225px) , (max-width:1369px){
-    #homegallery {
-        width:450px;
-        height:225px;
-    }
-}
-
-@media (max-width:1224px) {
-    #homegallery {
-        width:400px;
-        height:200px;
-    }
-
-}
-
-@media (min-width:1225px) , (max-width:1369px){
-    #youtubeframes{
-        width:325px;
-        height:250px;
-    }
-}
-
-
-div.ex1 {
+div.homebio {
     width: 800px;
     margin: auto;
     border: 3px solid #9400D3;
     color:white;
     font-size:40px;
     text-align:center;
-  }
+}
 
-div.ex2 {
+div.homepicturegallery {
     float: left;
     width: 300px;
     margin: auto;
@@ -84,9 +40,43 @@ div.ex2 {
     color:white;
     font-size:40px;
     text-align:center;
-  }
+}
 
-div.ex3 {
+button.morepicturesbutton{
+    color:purple;
+    font-size:20px;
+    background-color:darkgrey;
+    height:30px;
+    width:150px;
+}
+
+button.morepicturesbutton:hover{
+    color:purple;
+    background-color:grey;
+    height:30px;
+    width:150px;
+}
+
+a.morepictureslink:hover{
+    color:lightcoral;
+}
+
+button.cinemabutton{
+    color:purple;
+    font-size:20px;
+    background-color:darkgrey;
+    height:30px;
+    width:100px;
+}
+
+button.cinemabutton:hover{
+    color:purple;
+    background-color:grey;
+    height:30px;
+    width:100px;
+}
+
+div.homeyoutube {
     float: left;
     width: 300px;
     margin: auto;
@@ -94,9 +84,9 @@ div.ex3 {
     color:white;
     text-align:center;
     font-size:40px;
-  }
+}
 
-div.ex4 {
+div.homemedia {
     float: left;
     width: 300px;
     margin: auto;
@@ -104,10 +94,35 @@ div.ex4 {
     color:white;
     font-size: 40px;
     text-align:center;
-  }
+}
  
+div.homemusic {
+    float:left;
+    width:300px;
+    margin:auto;
+    border: 3px solid orange;
+    color:white;
+    font-size: 40px;
+    text-align:center;
+}
   
-  
+img.musicicon{
+    height:125px;
+    width: 125px;
+}
+
+button.pnotesbutton{
+    color:purple;
+    background-color:lightgrey;
+}
+
+button.pnotesbutton:hover{
+    color:purple;
+    background-color:grey;
+}
+
+
+
 /*"Picture Gallery" section */
 body.gallery {
     background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1774951538400993212/E445F969AEA82627FB9A6922B8D8E48F4DC5471C/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
@@ -116,25 +131,27 @@ body.gallery {
     background-attachment:fixed;
 }
 
-div.picgallery{
+div.picgallerydiv{
     border:10px solid grey;
     float:center;
-    height:150px;
-    width:1000px;
+    height:275px;
+    width: 1000px;
     margin:auto;
-    font-family:'Times New Roman', Times, serif;
-    font-size:100px;
     background-color:green;
+}
+
+h1.picgallerytitle{
+    font-size: 100px;
     color:white;
     text-align:center;
+    font-family:'Times New Roman', Times, serif;
 }
 
 table.pictures, td, th{
     border-collapse:collapse;
     border:10px solid grey;
-    width:700px;
+    width:400px;
     height:400px;
-    float:center;
     margin:auto;
     text-align:center;
     background-color:green;
@@ -142,7 +159,7 @@ table.pictures, td, th{
 
 
 
-/*"Patch Notes' section*/
+/*"Patch Notes" section*/
 body.pnotes {
     background-color:grey;
 }
@@ -168,12 +185,176 @@ p.pnotesblack {
 
 /*"Cinema" section*/
 body.cinema{
-    background-color:darkgrey;
+    background-image: url('/home/jacksonz/Pictures/images/cinema1.png');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-h1.ex8{
+h1.cinemaheader{
     font-family:'Times New Roman', Times, serif;
     font-size:100px;
     text-align:center;
     color:white;
+}
+
+
+
+
+
+/*"Music" section*/
+
+body.sirzenimusic {
+    background-color:tan;
+}
+
+h1.musicheader{
+    color: black;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+h2.myguitar{
+    color:black;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:50px;
+}
+
+img.zeniguitar {
+    height:600px;
+    width: 425px;
+    display:block;
+    margin:auto;
+}
+
+h3.downloadcontent{
+    color:black;
+    text-align:left;
+    font-family:'Times New Roman', Times, serif;
+    font-size:50px;
+}
+
+div.songboxes{
+    float:left;
+    margin:100px;
+    border:transparent;
+    height:200px;
+    width:400px;
+}
+
+audio.control{
+    text-align:center;
+}
+p.nationalanthem{
+    text-align:center;
+
+}
+
+p.unnamed1{
+    text-align:center
+}
+
+p.unnamed2{
+    text-align:center;
+}
+
+p.unnamed3{
+    text-align:center;
+}
+
+a.songdownload{
+    text-align:center;
+}
+
+a.songdownload:hover{
+    color:green;
+}
+
+
+
+/*Media Queries*/
+@media (min-width:1921px) , (max-width:2500px){
+    #zenipic{
+        height:100px;
+        width:100px;
+    }
+}
+
+@media (min-width:1370px) , (max-width:1920px) {
+    #zenipic {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media (min-width:1225px) , (max-width:1369px) {
+    #zenipic {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width:1224px) {
+    #zenipic {
+        width: 37px;
+        height: 37px;
+    }
+}
+
+@media (min-width:1225px) , (max-width:1369px){
+    #homegallery {
+        width:450px;
+        height:225px;
+    }
+}
+
+@media (max-width:1224px) {
+    #homegallery {
+        width:400px;
+        height:200px;
+    }
+
+}
+
+@media (min-width:1225px) , (max-width:1369px){
+    #youtubeframes{
+        width:325px;
+        height:250px;
+    }
+}
+
+@media (min-width:1225px) , (max-width:1369px){
+    #picstab{
+        width:50%;
+        height:50%;
+    }
+}
+
+@media (max-width:1225px){
+    #picgallerydiv1{
+        width:auto;
+        height:auto;
+    }
+}
+
+@media (max-width:1225px){
+    #maingrid{
+        width:auto;
+        height:auto;
+    }
+}
+
+@media (min-width:1225px) , (max-width:1369px) {
+    #allpics{
+        height:150px;
+        width:300px;
+    }
+}
+
+@media (max-width:1224px){
+    #allpics{
+        height:100px;
+        width:200px;
+    }
 }
