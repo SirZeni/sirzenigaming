@@ -326,7 +326,7 @@ a.songdownload:hover{
 
 @media (max-width:1225px){
     #buttongallerymedia{
-        width:auto;
+        font-size:15px;
     }
 }
 
