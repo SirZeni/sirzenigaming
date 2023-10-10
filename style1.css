@@ -140,12 +140,12 @@ body.gallery {
 }
 
 div.picgallerydiv{
-    border:10px solid grey;
+    border:10px solid black;
     float:center;
     height:275px;
     width: 1000px;
     margin:auto;
-    background-color:green;
+    background-color:rgb(10, 146, 146);
 }
 
 h1.picgallerytitle{
@@ -157,14 +157,13 @@ h1.picgallerytitle{
 
 table.pictures, td, th{
     border-collapse:collapse;
-    border:10px solid grey;
+    border:10px solid black;
     width:400px;
     height:400px;
     margin:auto;
     text-align:center;
-    background-color:green;
+    background-color:rgb(10, 146, 146);
 }
-
 
 
 /*"Patch Notes" section*/
