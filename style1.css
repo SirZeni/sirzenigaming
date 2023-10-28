@@ -295,8 +295,7 @@ p.pnotesblack {
 
 
 /*"Cinema" section*/
-body.cinema{
-    background-image: url('https://github.com/SirZeni/sirzenigaming/blob/main/img/cinema1.png');
+img.cinema{
     background-attachment: fixed;
     background-size: 100%;
     background-position-x:center;
