@@ -161,6 +161,50 @@ img.musicicon{
     width: 125px;
 }
 
+div.QRcodediv{
+    border:3px solid white;
+    width:300px;
+    color:white;
+    font-size:40px;
+    text-align: center;
+    display:block;
+    margin-left: 1110px;
+    margin-top:-325px;
+}
+
+button.QRcodebutton{
+    color:purple;
+    font-size: 17px;
+    background-color:darkgrey;
+    height:30px;
+    width:300px;
+    cursor: pointer;
+    margin-left: 1110px;
+}
+
+button.QRcodebutton:hover{
+    color:purple;
+    font-size: 17px;
+    background-color:grey;
+    height:30px;
+    width:300px;
+    cursor: pointer;
+}
+
+img.QRcodeimg{
+    display: none;
+    margin-left:1130px;
+}
+
+img.QRcodeimgdownload1{
+    display:none;
+    height:50px;
+    width:125px;
+    margin-left:1400px;
+    margin-top: -50px;
+}
+
+
 button.pnotesbutton{
     color:purple;
     background-color:lightgrey;
@@ -254,7 +298,11 @@ p.pnotesblack {
 body.cinema{
     background-image: url('/home/jacksonz/Pictures/images/cinema1.png');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
+    background-position-x:center;
+    background-position-y:center;
+    background-repeat: no-repeat;
+    background-color:black;
 }
 
 h1.cinemaheader{
@@ -264,9 +312,76 @@ h1.cinemaheader{
     color:white;
 }
 
+div.cinemadiv{
+    display:block;
+    margin-left: 180px;
+    margin-top:-103px;
+}
 
+iframe.cinemayoutubevids1{
+    height: 825px;
+    width:2177px;
+}
 
+iframe.cinemayoutubevids2{
+    display:none;
+    height: 825px;
+    width:2177px;
+}
 
+iframe.cinemayoutubevids3{
+    display:none;
+    height: 825px;
+    width:2177px;
+}
+
+iframe.cinemayoutubevids4{
+    display:none;
+    height: 825px;
+    width:2177px;
+}
+
+button.cinemamenubutton{
+    height:100px;
+    width: 100px;
+    background-color:transparent;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+div.cinemabuttondivs1{
+    background-color: black;
+    height: 5px;
+    width: 80px;
+}
+
+h1.cinemavideoslistheader{
+    font-size:20px;
+    text-align:center;
+    color: yellow;
+}
+
+button.dropmenubuttons{
+    border: 5px solid black;
+    height:100px;
+    width: 300px;
+}
+
+button.dropmenubuttons:hover{
+    border: 5px solid black;
+    height:100px;
+    width: 300px;
+    background-color: grey;
+}
+
+div.cinemamenu{
+    display:none;
+    background-color: maroon;
+    height: 530px;
+    width: 300px;
+    margin-top: -700px;
+    position:absolute;
+}
 
 /*"Music" section*/
 
@@ -438,3 +553,94 @@ a.songdownload:hover{
         width:200px;
     }
 }
+
+@media (max-width:1224px){
+    #QRcodediv1{
+        float:left;
+        margin-left: auto;
+        margin-top:auto;
+   
+    }
+}
+
+@media (max-width:1224px){
+    #QRcodebutton1{
+        float: left;
+        margin-left: auto;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:1224px){
+    #QRcodeimg1{
+        float:left;
+        margin-left: auto;
+    }
+}
+
+@media (max-width:1224px){
+    #QRcodeimg1download{
+        margin-left:1px;
+        float:left;
+        margin-top:225px;
+    }
+}
+
+@media (max-width:1500px){
+    #cinemamenubutton1{
+        height:100px;
+        width: 100px;
+        background-color:transparent;
+        border: 3px solid grey;
+        cursor: pointer;
+
+    }
+}
+
+@media (max-width:1500px){
+    #cinemabuttondivsid{
+        background-color: grey;
+        height: 5px;
+        width: 80px;
+    }
+}
+
+@media (max-width:1500px){
+    #cinemadropdownmenu{
+        display:none;
+        background-color: maroon;
+        height: 520px;
+        width: 250px;
+        margin-top: -600px;
+        position:absolute;
+    }
+}
+
+@media (max-width:1500px){
+    #cinemabutton1, #cinemabutton2, #cinemabutton3, #cinemabutton4{
+        border: 5px solid black;
+        height:100px;
+        width: 250px;
+    }
+}
+@media (max-width:1100px){
+    #cinemayoutubevideo1{
+        display:block;
+        margin-left: -120px;
+        margin-top:292px;
+        height: 400px;
+        width:107%;
+    }
+}
+
+
+
+@media (max-width:1224px){
+    #cinemayoutubevideo2, #cinemayoutubevideo3, #cinemayoutubevideo4 {
+        display:none;
+        margin-left: -120px;
+        margin-top:292px;
+        height: 400px;
+        width:107%;
+    }
+    }
