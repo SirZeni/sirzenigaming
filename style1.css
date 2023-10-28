@@ -627,7 +627,7 @@ a.songdownload:hover{
     #cinemayoutubevideo1{
         display:block;
         margin-left: -120px;
-        margin-top:592px;
+        margin-top:492px;
         height: 400px;
         width:107%;
     }
@@ -635,11 +635,11 @@ a.songdownload:hover{
 
 
 
-@media (max-width:1224px){
+@media (max-width:1100px){
     #cinemayoutubevideo2, #cinemayoutubevideo3, #cinemayoutubevideo4 {
         display:none;
         margin-left: -120px;
-        margin-top:192px;
+        margin-top:492px;
         height: 400px;
         width:107%;
     }
